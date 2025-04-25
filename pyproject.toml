@@ -1,0 +1,50 @@
+[project]
+name = "rune"
+version = "0.0.1"
+authors = [
+  { name="JT Ohta", email="myself@jtohta.com" },
+]
+description = "Simple, Composable LLM Inference with Structured Outputs"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    # Development Status
+    "Development Status :: 3 - Alpha",
+    
+    # Intended Audience
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    
+    # Topics
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing",
+    "Topic :: Text Processing :: Linguistic",
+    
+    # Python Versions
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    
+    # Framework
+    "Framework :: AsyncIO",
+    
+    # Typing
+    "Typing :: Typed",
+    
+    # Operating System
+    "Operating System :: OS Independent",
+    
+    # License
+    "License :: OSI Approved :: MIT License"
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/jtohta/rune"
+Issues = "https://github.com/jtohta/rune/issues"
